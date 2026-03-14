@@ -167,27 +167,7 @@ docker-compose up --build
 
 ---
 
-## 🌐 Deployment (Render)
 
-1. Push code to GitHub
-2. Go to [render.com](https://render.com) → New → Blueprint
-3. Connect your repository — Render auto-detects `render.yaml`
-4. Set environment variables in the Render dashboard:
-   - `MONGODB_URI` — MongoDB Atlas connection string
-   - `JWT_SECRET` — random 32+ char string
-   - `AES_SECRET_KEY` — random 32 char string
-   - `FRONTEND_URL` — your frontend Render URL
-   - `NEXT_PUBLIC_API_URL` — your backend Render URL
-5. Deploy
-
-### Vercel (frontend only)
-
-```bash
-cd frontend
-npx vercel --prod
-```
-
-Set `NEXT_PUBLIC_API_URL` in Vercel's environment settings.
 
 ---
 
