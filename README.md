@@ -6,8 +6,8 @@ A production-ready Task Management Application built with **Next.js**, **Node.js
 
 ## 🚀 Live Demo
 
-- **Frontend:** `https://taskflow-frontend.onrender.com` *(update after deployment)*
-- **Backend API:** `https://taskflow-backend.onrender.com` *(update after deployment)*
+- **Frontend:** `https://taskflow-frontend.onrender.com` 
+- **Backend API:** `https://taskflow-backend.onrender.com` 
 
 ---
 
